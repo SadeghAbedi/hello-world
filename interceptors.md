@@ -1,6 +1,6 @@
 # lejard-h/chopper
 
-Interceptors are a mechanism for monitoring calls. They are used to perform some actions before sending out a request, or after ****receiving a response. If you want to modify body of requests or responses we recommend you to use [Converters](https://hadrien-lejard.gitbook.io/chopper/converters/converters) instead. RequestInterceptor are called after Converter.convertRequest and ResponseInterceptors are called after Converter.convertResponse. To apply an interceptor add it to ChopperClient.
+Interceptors are a mechanism for monitoring calls. They are used to perform some actions before sending out a request, or after receiving a response. If you want to modify body of requests or responses we recommend you to use [Converters](https://hadrien-lejard.gitbook.io/chopper/converters/converters) instead. RequestInterceptor are called after Converter.convertRequest and ResponseInterceptors are called after Converter.convertResponse. To apply an interceptor add it to ChopperClient.
 
 ```text
 final chopper = new ChopperClient(
